@@ -265,7 +265,7 @@ include 'includes/hero.php';
         Let us take care of it!</p>
       <div class="d-flex justify-content-center gap-3 flex-wrap">
         
-        <a href="mailto:info@yourcompany.com" class="btn btn-outline-primary btn-lg text-black">
+        <a href="/views/contact.php" class="btn btn-outline-primary btn-lg text-black">
           Contact Us
         </a>
       </div>
