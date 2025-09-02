@@ -94,7 +94,7 @@ include '../includes/header.php';
   <!-- Llamado a la acción -->
   <section class="bg-light py-5">
     <div class="container text-center">
-      <h2 class="fw-bold"> Ready to send your next package?</h2>
+      <h2 class="fw-bold"> Ready to receive your next package?</h2>
       <p class="mb-4">Vitram makes it easy. Fast, secure, and reliable.</p>
       <a href="/views/contact.php" class="btn btn-primary btn-lg">Contact us now</a>
     </div>
