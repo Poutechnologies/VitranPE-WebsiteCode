@@ -180,7 +180,7 @@ include 'includes/hero.php';
 
         <!-- Imagen -->
         <div class="col-md-6 px-0">
-          <img src="/images/general/28.PNG" alt="Delivery Team" class="img-fluid ms-md-4">
+          <img src="/images/general/whyChooseUs.png" alt="Delivery Team" class="img-fluid ms-md-4">
         </div>
       </div>
     </div>
