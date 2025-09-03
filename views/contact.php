@@ -15,7 +15,7 @@ include '../includes/header.php';
 
 
 
-<section class="contact-hero-section" style="background-image: url('/images/general/10.png');">
+<section class="py-5 contact-hero-section" style="background-image: url('/images/general/contactBgForm.png');">
     <div class="container h-100 d-flex flex-column justify-content-center py-5">
         <!-- Hero Section -->
         <section class="contact-hero text-center">

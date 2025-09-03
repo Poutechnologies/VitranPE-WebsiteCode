@@ -314,7 +314,7 @@ footer i:hover {
 
 
 .contact-info-section {
-    background-image: url('/images/general/contactBg.png');
+    background-image: url('/images/general/contactBg1.png');
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
@@ -332,7 +332,7 @@ footer i:hover {
 /*ABOUT US PAGE*/
 
 .about-us-section {
-    background-image: url('/images/general/aboutUsBg.png');
+    background-image: url('/images/general/aboutUsBg1.png');
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
