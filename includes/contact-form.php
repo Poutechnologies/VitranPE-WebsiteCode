@@ -1,6 +1,3 @@
-
-
-
 <div class="contact-form-wrapper">
     <div class="contact-form  p-4 rounded shadow">
         <h2 class="text-center mb-4 text-black ">Get in Touch</h2>
@@ -26,11 +23,11 @@
                     <label for="service" class="form-label">Service</label>
                     <select class="form-select" id="service" name="service" required>
                         <option value="" disabled selected>Select a service</option>
-                        <option class="text-black" value="Business Cleaning">Moving</option>
-                        <option value="Deep Cleaning">Ride</option>
-                        <option value="Move In/Move Out Cleaning">Same day delivery</option>
-                        <option value="Weekly/Biweekly Cleaning">Delivery for Businesses</option>
-                        <option value="Additional Cleaning Services">Scheduled Shipments</option>
+                        <option class="text-black" value="Moving">Moving</option>
+                        <option value="Ride">Ride</option>
+                        <option value="Same day delivery">Same day delivery</option>
+                        <option value="Delivery for Businesses">Delivery for Businesses</option>
+                        <option value="Scheduled Shipments">Scheduled Shipments</option>
                     </select>
                 </div>
                 <div class="col-12">
@@ -47,7 +44,7 @@
                 </div>
                 <div class="col-12">
                     <button class="g-recaptcha btn-custom px-4 py-2" 
-                        data-sitekey="6LeSOMYqAAAAAN28MBDLyxJYqjCaurDO5T7uAbMo" 
+                        data-sitekey="6Ld-TL4rAAAAAHwmiPJa335X8EAN0V9slHqBiPAq" 
                         data-callback='onSubmit' 
                         data-action='submit'>Submit
                     </button>

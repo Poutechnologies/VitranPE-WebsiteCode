@@ -22,7 +22,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     // Validar el token con la API de Google
-    $secretKey = '6LeSOMYqAAAAAB3TUlQbSTJ5lvN6CJ2WHT0arKNV'; // Reemplaza con tu clave secreta
+    $secretKey = '6Ld-TL4rAAAAAOQXhVsIzKm7Ym4jdp5-AqtdGfgc'; // Reemplaza con tu clave secreta
     $url = "https://www.google.com/recaptcha/api/siteverify";
     $data = [
         'secret' => $secretKey,
@@ -55,7 +55,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     // Procesar el formulario (enviar correo, etc.)
-    $to = "info@easycleanca.com"; // Reemplaza por tu dirección de correo
+    $to = "contact@vitranpei.com"; // Reemplaza por tu dirección de correo
     $subject = "New message from the form";
     $body = "First Name: $firstName\n";
     $body .= "Last Name: $lastName\n";
