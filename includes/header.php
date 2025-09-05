@@ -53,14 +53,16 @@
     
     
   <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-96FW17M0GE"></script>
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-4S7VRD0E27"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
 
-    gtag('config', 'G-96FW17M0GE');
+    gtag('config', 'G-4S7VRD0E27');
   </script>
+
 
 
     <!-- ICONS -->
