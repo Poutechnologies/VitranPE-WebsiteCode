@@ -55,23 +55,24 @@ p {
 
 @media (max-width: 768px) {
     .hero {
-        background-image: url('/images/general/heroVitran.png');
+        background-image: url('/images/general/heroVitranCell.png');
         padding: 60px 20px;
         min-height: 80vh;
     }
 
     .hero h1 {
-        font-size: 2.5rem;
+        font-size: 5rem;
     }
 
     .hero h3 {
-        font-size: 1.5rem;
+        font-size: 4rem;
     }
 
     .hero p {
-        font-size: 1rem;
+        font-size: 3rem;
     }
 }
+
 
 
 
@@ -155,6 +156,35 @@ p {
     display: block;
   }
 }
+
+
+/* Borde del botón hamburguesa */
+.navbar-toggler {
+  border-color: #0f0be7; /* tu azul */
+}
+
+/* Borde del botón */
+.site-navbar .navbar-toggler {
+  border-color: #0f0be7; /* tu azul */
+}
+
+/* Ícono hamburguesa AZUL (sobrescribe la variable de Bootstrap) */
+.site-navbar {
+  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%230f0be7' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22 M4 15h22 M4 23h22'/%3e%3c/svg%3e");
+}
+
+
+/* Letras del menú en blanco */
+.site-navbar .nav-link {
+  color: #ffffff !important;
+}
+
+/* Al pasar el mouse */
+.site-navbar .nav-link:hover,
+.site-navbar .nav-link:focus {
+  color: #4882b3 !important; /* opcional: que cambien a azul */
+}
+
 
 
 /* Animación para los cuadros */
@@ -727,3 +757,8 @@ p {
 .btn-close:hover {
     color: #fff;
 }
+
+
+
+/*Responsive*/
+
