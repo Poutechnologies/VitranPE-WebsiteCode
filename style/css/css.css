@@ -1,121 +1,103 @@
+/* ==============================
+   VARIABLES
+================================= */
 :root {
-    --primary-color: #0f0be7;
-    --secondary-color: #4CAF50;
-    --text-color: #6c757d;
-    --white: #fff;
-    --black: #000;
-    --error-color: #ff6f61;
-    --font-family: "Poppins", serif;
+  --primary-color: #0b84e7bb;
+  --secondary-color: #4CAF50;
+  --text-color: #6c757d;
+  --white: #fff;
+  --black: #000;
+  --error-color: #ff6f61;
+  --font-family: "Poppins", serif;
 }
 
-/* Estilos generales */
+/* ==============================
+   RESET / BASE
+================================= */
 body {
-    font-family: var(--font-family);
-    color: var(--text-color);
+  font-family: var(--font-family);
+  color: var(--text-color);
+}
+
+h1, h2, h3, p {
+  font-family: var(--font-family);
 }
 
 h1, h2, h3 {
-    font-family: var(--font-family);
-    font-weight: 100;
+  font-weight: 100;
 }
-
-p {
-    font-family: var(--font-family);
-}
-
 
 .custom-padding {
   padding-top: 7rem;
   padding-bottom: 7rem;
 }
 
-
-/* HERO SECTION */
-
+/* ==============================
+   HERO SECTION
+================================= */
 .hero {
-    background-image: url('/images/general/heroVitran.png');
-    background-size: cover;
-    background-position: center;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 100px 15px;
-    color: white;
-    text-align: center;
-}
-
-
-.hero p {
-    font-size: 1.25rem;
-    margin-bottom: 2rem;
-}
-
-/*Hero Cellphone*/
-
-@media (max-width: 768px) {
-    .hero {
-        background-image: url('/images/general/heroVitranCell.png');
-        padding: 60px 20px;
-        min-height: 80vh;
-    }
-
-    .hero h1 {
-        font-size: 5rem;
-    }
-
-    .hero h3 {
-        font-size: 4rem;
-    }
-
-    .hero p {
-        font-size: 3rem;
-    }
-}
-
-
-
-
-/*Align Text hero*/
-
-.text-left {
-  text-align: left;
-}
-
-.text-center {
+  background-image: url('/images/general/heroVitran.png');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 15px;
+  color: var(--white);
   text-align: center;
 }
 
-.text-right {
-  text-align: right;
+.hero p {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
 }
 
-
-/*Size Hero*/
-
+/* HERO TEXT SIZES */
 .hero-title {
   font-size: 4rem;
   font-weight: 700;
 }
 
 .hero-subtitle {
-  font-size: 5rem; 
+  font-size: 5rem;
   font-weight: 300;
   margin-bottom: 0.5rem;
 }
 
 .hero-description {
-    font-size: 10.2rem;
+  font-size: 10.2rem;
+}
+
+/* HERO TEXT ALIGN HELPERS */
+.text-left   { text-align: left; }
+.text-center { text-align: center; }
+.text-right  { text-align: right; }
+
+/* HERO MOBILE */
+@media (max-width: 768px) {
+  .hero {
+    background-image: url('/images/general/4.png');
+    padding: 60px 20px;
+    min-height: 80vh;
   }
 
+  .hero h1 { font-size: 5rem; }
+  .hero h3 { font-size: 4rem; }
+  .hero p  { font-size: 3rem; }
+}
 
-/* NAVBAR GENERAL */
-
+/* ==============================
+   NAVBAR
+================================= */
 .site-navbar {
   background: rgba(0, 0, 0, 0.5); /* Fondo translúcido */
   z-index: 10;
   padding-top: 1rem;
   padding-bottom: 1rem;
+
+  /* Ícono hamburguesa AZUL (sobrescribe variable Bootstrap) */
+  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%230f0be7' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22 M4 15h22 M4 23h22'/%3e%3c/svg%3e");
 }
 
 /* LOGO */
@@ -125,20 +107,40 @@ p {
   transition: all 0.3s ease;
 }
 
-/* MENÚ DE NAVEGACIÓN */
+/* NAV LINKS – Desktop */
 .site-nav .nav-link {
-  color: white;
+  color: var(--black) !important;
   font-size: 1.1rem;
   font-weight: 500;
   padding: 0.5rem 1rem;
   transition: color 0.3s;
 }
 
-.site-nav .nav-link:hover {
-  color: #f8f9fa; /* más claro al pasar el mouse */
+.site-nav .nav-link:hover,
+.site-nav .nav-link:focus {
+  color: var(--primary-color) !important;
 }
 
-/* RESPONSIVE */
+/* NAV LINKS – Mobile */
+@media (max-width: 768px) {
+  .site-nav .nav-link {
+    color: var(--white) !important;
+  }
+}
+
+
+.site-nav .nav-link:hover,
+.site-nav .nav-link:focus {
+  color: var(--primary-color) !important;
+}
+
+/* NAVBAR TOGGLER (hamburguesa) */
+.navbar-toggler,
+.site-navbar .navbar-toggler {
+  border-color: var(--primary-color);
+}
+
+/* RESPONSIVE NAVBAR */
 @media (max-width: 768px) {
   .site-logo {
     height: 80px;
@@ -157,33 +159,6 @@ p {
   }
 }
 
-
-/* Borde del botón hamburguesa */
-.navbar-toggler {
-  border-color: #0f0be7; /* tu azul */
-}
-
-/* Borde del botón */
-.site-navbar .navbar-toggler {
-  border-color: #0f0be7; /* tu azul */
-}
-
-/* Ícono hamburguesa AZUL (sobrescribe la variable de Bootstrap) */
-.site-navbar {
-  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%230f0be7' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22 M4 15h22 M4 23h22'/%3e%3c/svg%3e");
-}
-
-
-/* Letras del menú en blanco */
-.site-navbar .nav-link {
-  color: #ffffff !important;
-}
-
-/* Al pasar el mouse */
-.site-navbar .nav-link:hover,
-.site-navbar .nav-link:focus {
-  color: #4882b3 !important; /* opcional: que cambien a azul */
-}
 
 
 
