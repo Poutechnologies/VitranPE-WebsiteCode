@@ -22,7 +22,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     // Validar el token con la API de Google
-    $secretKey = '6Ld-TL4rAAAAAOQXhVsIzKm7Ym4jdp5-AqtdGfgc'; // Reemplaza con tu clave secreta
+    $secretKey = '6Lfx478rAAAAAEz1rEex4Kop5GE0ST_btTXdaVqw'; // Reemplaza con tu clave secreta
     $url = "https://www.google.com/recaptcha/api/siteverify";
     $data = [
         'secret' => $secretKey,

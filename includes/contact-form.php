@@ -44,7 +44,7 @@
                 </div>
                 <div class="col-12">
                     <button class="g-recaptcha btn-custom px-4 py-2" 
-                        data-sitekey="6Ld-TL4rAAAAAHwmiPJa335X8EAN0V9slHqBiPAq" 
+                        data-sitekey="6Lfx478rAAAAABIGgk6KItdz-8WyVACYAA8pXx1Y" 
                         data-callback='onSubmit' 
                         data-action='submit'>Submit
                     </button>
