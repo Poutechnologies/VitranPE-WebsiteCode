@@ -334,20 +334,38 @@ footer i:hover {
 
 
 
-/*ABOUT US PAGE*/
-
+/* ABOUT US PAGE - Desktop */
 .about-us-section {
-    background-image: url('/images/general/aboutUsBg1.png');
-    background-size: cover;
-    background-position: top;
-    background-repeat: no-repeat;
+  background-image: url('/images/general/aboutUsBg2.png'); /* imagen para desktop */
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
 
-    padding-top: 20rem;   /* más espacio arriba */
-    padding-bottom: 30rem; /* más espacio abajo */
-    
-    width: 100%;
-    min-height: auto; /* quitar límite mínimo */
+  padding-top: 20rem;
+  padding-bottom: 30rem;
+  width: 100%;
 }
+
+/* Tablets */
+@media (max-width: 1024px) {
+  .about-us-section {
+    padding-top: 12rem;
+    padding-bottom: 15rem;
+    background-position: center;
+  }
+}
+
+/* Celulares */
+@media (max-width: 768px) {
+  .about-us-section {
+    background-image: url('/images/general/testimonialBg.png'); /* imagen optimizada para móvil */
+    padding-top: 6rem;
+    padding-bottom: 8rem;
+    background-position: center;
+  }
+}
+
+
 
 
 /*PRIVACY PAGE*/
