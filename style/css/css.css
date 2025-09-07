@@ -242,7 +242,7 @@ footer i:hover {
 
 @media (max-width: 768px) {
     .heroServices {
-        background-image: url('/images/general/heroVitran.png');
+        background-image: url('/images/general/heroServicesBg.png');
         padding: 60px 20px;
         min-height: 80vh;
     }
