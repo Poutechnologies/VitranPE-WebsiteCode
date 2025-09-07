@@ -77,14 +77,14 @@ h1, h2, h3 {
 /* HERO MOBILE */
 @media (max-width: 768px) {
   .hero {
-    background-image: url('/images/general/4.png');
+    background-image: url('/images/general/heroVitranCell.png');
     padding: 60px 20px;
     min-height: 80vh;
   }
 
-  .hero h1 { font-size: 5rem; }
-  .hero h3 { font-size: 4rem; }
-  .hero p  { font-size: 3rem; }
+  .hero h1 { font-size: 4rem; }
+  .hero h3 { font-size: 3rem; }
+  .hero p  { font-size: 2rem; }
 }
 
 /* ==============================
