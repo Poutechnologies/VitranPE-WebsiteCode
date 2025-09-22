@@ -77,7 +77,7 @@ h1, h2, h3 {
 /* HERO MOBILE */
 @media (max-width: 768px) {
   .hero {
-    background-image: url('/images/general/heroBgCell.png'); /* optimizada para móviles */
+    background-image: url('/images/general/heroBgSVGCell.svg'); /* optimizada para móviles */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
