@@ -36,7 +36,7 @@ h1, h2, h3 {
    HERO SECTION
 ================================= */
 .hero {
-  background-image: url('/images/general/heroVitran.png');
+  background-image: url('/images/general/heroVitranSVG.svg');
   background-size: cover;
   background-position: center;
   min-height: 100vh;
@@ -222,7 +222,7 @@ footer i:hover {
 /* Services */
 
 .heroServices {
-    background-image: url('/images/general/heroServicesBg.png');
+    background-image: url('/images/general/heroServicesBgSVG.svg');
     background-size: cover;
     background-position: center;
     min-height: 100vh;
@@ -245,7 +245,7 @@ footer i:hover {
 
 @media (max-width: 768px) {
     .heroServices {
-        background-image: url('/images/general/heroServicesBg.png');
+        background-image: url('/images/general/heroServicesBgSVG.svg');
         padding: 60px 20px;
         min-height: 80vh;
     }
@@ -322,7 +322,7 @@ footer i:hover {
 
 
 .contact-info-section {
-    background-image: url('/images/general/contactBg1.png');
+    background-image: url('/images/general/contactBgSVG.svg');
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
@@ -339,7 +339,7 @@ footer i:hover {
 
 /* ABOUT US PAGE - Desktop */
 .about-us-section {
-  background-image: url('/images/general/aboutUsBg2.png'); /* imagen para desktop */
+  background-image: url('/images/general/aboutUsBGSVG.svg'); /* imagen para desktop */
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
@@ -373,7 +373,7 @@ footer i:hover {
 
 /*PRIVACY PAGE*/
 .privacy-section {
-    background-image: url('/images/general/heroServicesBg.png'); /* Cambia por tu imagen */
+    background-image: url('/images/general/heroServicesBgSVG.svg'); /* Cambia por tu imagen */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
