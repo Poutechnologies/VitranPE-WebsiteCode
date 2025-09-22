@@ -261,7 +261,7 @@ include 'includes/hero.php';
   <section class="custom-padding text-white text-center">
     <div class="container">
       <h2 class="display-5 fw-bold mb-3 text-black">Ready for your first delivery?</h2>
-      <p class="lead mb-4 text-black ">Fast, reliable, and personalized service — just a click away. 10% off in your first delivery
+      <p class="lead mb-4 text-black ">Fast, reliable, and personalized service — just a click away.
         Let us take care of it!</p>
       <div class="d-flex justify-content-center gap-3 flex-wrap">
         

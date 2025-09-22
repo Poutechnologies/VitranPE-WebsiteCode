@@ -39,10 +39,10 @@
           <li><i class="fas fa-map-marker-alt me-2"></i> Charlottetown, PEI, Canada</li>
         </ul>
         <div class="mt-3">
-          <a href="#" class="text-light me-3"><i class="fab fa-facebook fa-lg"></i></a>
-          <a href="#" class="text-light me-3"><i class="fab fa-instagram fa-lg"></i></a>
-          <a href="#" class="text-light me-3"><i class="fab fa-twitter fa-lg"></i></a>
-          <a href="#" class="text-light"><i class="fab fa-linkedin fa-lg"></i></a>
+          <!-- <a href="#" class="text-light me-3"><i class="fab fa-facebook fa-lg"></i></a> -->
+          <a href="https://www.instagram.com/vitrandeliveryservices?igsh=MTd6bHFkeGdhZzF6OQ==" class="text-light me-3" target="_blank" ><i class="fab fa-instagram fa-lg"></i></a>
+          <!-- <a href="#" class="text-light me-3"><i class="fab fa-twitter fa-lg"></i></a>
+          <a href="#" class="text-light"><i class="fab fa-linkedin fa-lg"></i></a> -->
         </div>
       </div>
 
@@ -137,27 +137,27 @@
 
 
 // Verifica si el usuario ya cerró el aviso
-function checkTestBanner() {
-    return localStorage.getItem('testBannerClosed') === 'true';
-}
+// function checkTestBanner() {
+//     return localStorage.getItem('testBannerClosed') === 'true';
+// }
 
 // Muestra el banner si no se ha cerrado
-function showTestBanner() {
-    const banner = document.getElementById('test-banner');
-    if (!checkTestBanner()) {
-        banner.style.display = 'block';
-    }
-}
+// function showTestBanner() {
+//     const banner = document.getElementById('test-banner');
+//     if (!checkTestBanner()) {
+//         banner.style.display = 'block';
+//     }
+// }
 
 // Cierra el banner y guarda la preferencia
-document.getElementById('close-test-banner').addEventListener('click', function() {
-    const banner = document.getElementById('test-banner');
-    banner.style.display = 'none';
-    localStorage.setItem('testBannerClosed', 'true');
-});
+// document.getElementById('close-test-banner').addEventListener('click', function() {
+//     const banner = document.getElementById('test-banner');
+//     banner.style.display = 'none';
+//     localStorage.setItem('testBannerClosed', 'true');
+// });
 
 // Mostrar al cargar la página
-document.addEventListener('DOMContentLoaded', showTestBanner);
+// document.addEventListener('DOMContentLoaded', showTestBanner);
 
 
 </script>
