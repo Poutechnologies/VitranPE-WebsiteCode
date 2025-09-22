@@ -83,7 +83,7 @@
 <body>
 
 <!-- Test Site Banner -->
-<div id="test-banner" class="test-banner">
+<!-- <div id="test-banner" class="test-banner">
     <div class="test-banner-content">
         <p>
             ⚠️ This website is currently in **testing phase** and may experience errors. 
@@ -91,7 +91,7 @@
         </p>
         <button id="close-test-banner" class="btn-close">Close</button>
     </div>
-</div>
+</div> -->
 
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-transparent position-absolute w-100 site-navbar">

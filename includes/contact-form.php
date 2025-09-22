@@ -27,7 +27,7 @@
                         <option value="Ride">Ride</option>
                         <option value="Same day delivery">Same day delivery</option>
                         <option value="Delivery for Businesses">Delivery for Businesses</option>
-                        <option value="Scheduled Shipments">Scheduled Shipments</option>
+                        <option value="Scheduled Shipments">Scheduled Shipments</option>                 
                     </select>
                 </div>
                 <div class="col-12">
