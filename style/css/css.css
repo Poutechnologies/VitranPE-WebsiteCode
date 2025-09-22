@@ -77,26 +77,18 @@ h1, h2, h3 {
 /* HERO MOBILE */
 @media (max-width: 768px) {
   .hero {
-    /* Imagen optimizada y soporte para pantallas de alta densidad */
-    background-image: image-set(
-      url('/images/general/heroBgCell.png') 1x,
-      url('/images/general/heroBgCell.png') 2x
-    );
-
-    background-size: cover;       /* La imagen cubre toda la sección */
-    background-position: center;  /* Centrada en pantalla */
-    background-repeat: no-repeat; /* Evita repeticiones */
-
+    background-image: url('/images/general/heroBgCell.png'); /* optimizada para móviles */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     padding: 60px 20px;
     min-height: 80vh;
   }
 
-  /* Tipografía flexible para distintos móviles */
-  .hero h1 { font-size: clamp(2rem, 6vw, 3rem); }
-  .hero h3 { font-size: clamp(1.5rem, 5vw, 2rem); }
-  .hero p  { font-size: clamp(0.9rem, 3vw, 1rem); }
+  .hero h1 { font-size: 3rem; }
+  .hero h3 { font-size: 2rem; }
+  .hero p  { font-size: 1rem; }
 }
-
 
 /* ==============================
    NAVBAR
