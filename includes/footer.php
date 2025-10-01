@@ -34,7 +34,7 @@
       <div class="col-md-3 mb-4">
         <h5 class="mb-3">Contact</h5>
         <ul class="list-unstyled">
-          <li><i class="fas fa-phone-alt me-2"></i> (902) 916-3216 / (902) 916-4955</li>
+          <li><i class="fas fa-phone-alt me-2"></i> (902) 916-3226 / (902) 916-4955</li>
           <li><i class="fas fa-envelope me-2"></i> contact@vitranpei.com</li>
           <li><i class="fas fa-map-marker-alt me-2"></i> Charlottetown, PEI, Canada</li>
         </ul>
