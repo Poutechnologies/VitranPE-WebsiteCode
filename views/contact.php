@@ -40,39 +40,57 @@ include '../includes/header.php';
 
 
 <section class="contact-info-section text-white d-flex align-items-center">
-    <div class="container">
-        <div class="d-flex justify-content-end">
-            <div class="contact-info-right p-4  bg-opacity-75 rounded shadow-lg">
-                <h2 class="mb-4 fw-bold text-uppercase border-bottom pb-2 text-black">Get in Touch</h2>
-                <ul class="list-unstyled">
-                    <li class="mb-3 d-flex align-items-center">
-                        <i class="bi bi-telephone-fill me-3 fs-5 text-primary"></i>
-                        <span class="text-black"><strong>Phone:</strong> (902) 916-3226</span>
-                    </li>
-                    <li class="mb-3 d-flex align-items-center">
-                        <i class="bi bi-envelope-fill me-3 fs-5 text-primary"></i>
-                        <span class="text-black"><strong>Email:</strong> contact@vitranpei.com</span>
-                    </li>
-                    <li class="mb-3 d-flex align-items-center">
-                        <i class="bi bi-geo-alt-fill me-3 fs-5 text-primary"></i>
-                        <span class="text-black"><strong>Address:</strong> Charlottetown, PEI</span>
-                    </li>
-                    <li class="d-flex align-items-center">
-                        <i class="bi bi-clock-fill me-3 fs-5 text-primary"></i>
-                        <span class="text-black"><strong>Hours:</strong> Mon - Fri: 6:00 AM - 12:00 PM</span>
-                    </li>
+  <div class="container">
 
-                    <div class="py-3">
-                        <a href="tel:1234567890" class="btn btn-success btn-lg">
-                            <i class="bi bi-telephone-forward-fill me-2"></i>Call Now
-                        </a> 
-                    </div>
-
-                </ul>
+    <!-- Cuadro actual de contacto -->
+    <div class="row justify-content-end mb-4">
+      <div class="col-md-6">
+        <div class="contact-info-right p-4 bg-opacity-75 rounded shadow-lg">
+          <h2 class="mb-4 fw-bold text-uppercase border-bottom pb-2 text-black">Get in Touch</h2>
+          <ul class="list-unstyled">
+            <li class="mb-3 d-flex align-items-center">
+              <i class="bi bi-telephone-fill me-3 fs-5 text-primary"></i>
+              <span class="text-black"><strong>Phone:</strong> (902) 916-3226</span>
+            </li>
+            <li class="mb-3 d-flex align-items-center">
+              <i class="bi bi-envelope-fill me-3 fs-5 text-primary"></i>
+              <span class="text-black"><strong>Email:</strong> contact@vitranpei.com</span>
+            </li>
+            <li class="mb-3 d-flex align-items-center">
+              <i class="bi bi-geo-alt-fill me-3 fs-5 text-primary"></i>
+              <span class="text-black"><strong>Address:</strong> Charlottetown, PEI</span>
+            </li>
+            <li class="mb-3 d-flex align-items-center">
+              <i class="bi bi-clock-fill me-3 fs-5 text-primary"></i>
+              <span class="text-black"><strong>Hours:</strong> Mon - Fri: 6:00 AM - 12:00 PM</span>
+            </li>
+            <div class="py-3">
+              <a href="tel:1234567890" class="btn btn-success btn-lg">
+                <i class="bi bi-telephone-forward-fill me-2"></i>Call Now
+              </a>
             </div>
+          </ul>
         </div>
+      </div>
     </div>
+
+    <!-- Cuadro de anuncios -->
+    <div class="row justify-content-end">
+      <div class="col-md-6">
+        <div class="p-4 bg-opacity-75 rounded shadow-lg">
+          <h2 class="mb-4 fw-bold text-uppercase border-bottom pb-2 text-black">Announcements</h2>
+          <h3 class="text-black fw-bold"><i class="bi bi-geo-alt-fill me-3 fs-5 text-primary"></i>Summerside:</h3>
+          <p class="text-black">Delivery every Tuesday and Friday.  </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
 </section>
+
+
+
+
 
 
 
