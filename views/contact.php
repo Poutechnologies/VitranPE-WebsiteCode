@@ -80,7 +80,7 @@ include '../includes/header.php';
         <div class="p-4 bg-opacity-75 rounded shadow-lg">
           <h2 class="mb-4 fw-bold text-uppercase border-bottom pb-2 text-black">Announcements</h2>
           <h3 class="text-black fw-bold"><i class="bi bi-geo-alt-fill me-3 fs-5 text-primary"></i>Summerside:</h3>
-          <p class="text-black">Delivery every Tuesday and Friday.  </p>
+          <p class="text-black">Delivery every Tuesday and Thursday.  </p>
         </div>
       </div>
     </div>
